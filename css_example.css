@@ -1,0 +1,39 @@
+/*This is a comment*/
+
+body{ /*Headers delegate what part of your HTML document you want to style*/
+   
+    /*This changes the background color of the body*/
+    background-color: lavender; /*Remember to include semicolons!*/
+
+    /*Any style included within the culry brackets will be applied to that section*/
+
+}
+
+h1{ /*This affects ALL h1 tags in our HTML, including the ones made using JavaScript*/
+    
+    /*This changes the text color*/
+    color: blueviolet;
+
+    /*And this changes the font*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{/*This affects ALL images in our HTML*/
+    
+    /*This creates a margin around our image*/
+    margin: 4px;
+    
+}
+
+.myDiv { /*This header effects elements within the myDiv class divider ONLY*/
+    
+    /*This centers the elements in class myDiv*/
+    text-align: center;
+    
+}
+
+#button1 { /*This header customizes our button with id button1*/
+    background-color: violet;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
